@@ -14,8 +14,8 @@ public class PlayerController : MonoBehaviour
     bool PlayerMoveClass = false;
     bool PlayerInteractiveClass = false;
 
-    PlayerMove moveClass;
-    PlayerInteractive InteractiveClass;
+    public PlayerMove moveClass;
+    public PlayerInteractive InteractiveClass;
 
     /// <summary>
     /// 초기 준비 함수
@@ -40,9 +40,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         InitializePlayer();
-    }
-    private void OnEnable()
-    {
     }
 
 #if UNITY_EDITOR
