@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 
 #if UNITY_EDITOR
     [CustomEditor(typeof(PlayerController))]
-    public class FoldoutExampleEditor : Editor
+    public class PlayerControllEditor : Editor
     {
         PlayerController myTarget;
         public override void OnInspectorGUI()
